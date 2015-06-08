@@ -1,5 +1,6 @@
 html,
 body {
+    direction: rtl;
     height: 100%;
 }
 
@@ -12,6 +13,19 @@ body {
 
 .wrap > .container {
     padding: 70px 15px 20px;
+}
+.detail-disposal{
+position:relative;
+width:100%;
+
+}
+.detail1-view {
+position: right;
+margin-left:20px;
+margin-bottom:20px;
+float:right;
+width: 500px; 
+border:1px solid #000;
 }
 
 .footer {
